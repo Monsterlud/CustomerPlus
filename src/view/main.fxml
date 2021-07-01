@@ -21,7 +21,7 @@
                </font></Button>
             <Button fx:id="addApptBtn" layoutX="37.0" layoutY="367.0" mnemonicParsing="false" onAction="#onActionAddAppt" text="Add Appointment" />
             <Button fx:id="modifyApptBtn" layoutX="167.0" layoutY="367.0" mnemonicParsing="false" onAction="#onActionModifyAppt" text="Modify Appointment" />
-            <Label layoutX="40.0" layoutY="70.0" text="Appointments">
+            <Label layoutX="40.0" layoutY="70.0" text="Appointments" textFill="#ff5100">
                <font>
                   <Font size="18.0" />
                </font>
@@ -41,7 +41,7 @@
                   <TableColumn fx:id="apptCustomerCol" prefWidth="120.0" text="Customer" />
               </columns>
             </TableView>
-            <Label layoutX="40.0" layoutY="411.0" text="Customers">
+            <Label layoutX="40.0" layoutY="411.0" text="Customers" textFill="#309000">
                <font>
                   <Font size="18.0" />
                </font>
@@ -71,8 +71,9 @@
                </toggleGroup></RadioButton>
             <RadioButton fx:id="weekRadioRdo" layoutX="687.0" layoutY="73.0" mnemonicParsing="false" onAction="#onActionWeek" text="Week" toggleGroup="$appointmentView" />
             <RadioButton fx:id="monthRadioRdo" layoutX="762.0" layoutY="73.0" mnemonicParsing="false" onAction="#onActionMonth" text="Month" toggleGroup="$appointmentView" />
+            <Label layoutX="203.0" layoutY="33.0" text="customer appointment manager" textFill="#8d8484" />
          </children></AnchorPane>
-      <Label layoutX="53.0" layoutY="30.0" text="Customer Manager">
+      <Label layoutX="53.0" layoutY="30.0" text="Customer Plus" textFill="#2606c9">
          <font>
             <Font size="24.0" />
          </font>
