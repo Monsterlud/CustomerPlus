@@ -1,3 +1,4 @@
+![customer plus logo](images/cplus_logo.png) 
 # CustomerPlus
 This application is a WGU Java project that allows users to organize customers,
 salespeople, and appointments between them. The database is network-based and is 
