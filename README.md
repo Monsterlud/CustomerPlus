@@ -1,11 +1,11 @@
 ![customer plus logo](images/cplus_logo.png) 
 # CustomerPlus
-This application is a WGU Java project that allows users to organize customers,
-salespeople, and appointments between them. The database is network-based and is 
-hoseted by a MySQL database and accessed through the MYSQLJDBC Driver. There is
-multi-language functionality that is implemented via Lang resource bundles. This
-project also shows effective use of time zones, enums/fixed menus, and MVC + DAO 
-structure.
+CustomerPlus was written as part of a WGU Java course. This desktop app allows users to 
+organize customers, salespeople, and appointments between them. The database is 
+network-based and is hosted by a MySQL database and accessed through the MYSQLJDBC 
+Driver. There is multi-language functionality that is implemented via Lang resource 
+bundles. This project also shows effective use of time zones, enums/fixed menus, and 
+MVC + DAO structure.
 
 ## User Interface
 After a simple login page ("admin", "admin") the user is brought to a main screen
